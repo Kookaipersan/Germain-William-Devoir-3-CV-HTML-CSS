@@ -2,34 +2,32 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-      @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-    </style>
+    <meta name="Description" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/cv.css">
     <title>CV</title>
 </head>
 <body>
-    <main>
-        <header>
+    <!--Entête du CV-->
+        <header class="conteneur">
             <div class="photo">
-                <img src="./images/photo cv.png" alt="mon image">  
+                <img src="../Germain William Devoir 3 CV HTML CSS/assets/images/photo cv.png" alt="mon image">  
             </div>
             <div class="nom">
                 <h1>GERMAIN William</h1>
                 <h2 class="poste">Développeur Web et Web Mobile</h2>
-            </div>
-            <address class="logo">
-                <p><img src="./images/email.png" alt="Mail"><a href="mailto:kookaipersan@gmail.com">Mail</a></p>
-                <p><img src="./images/adress.png" alt="Address"><a href="https://maps.app.goo.gl/JFsC5PQL3iy6KH3X8">Adresse</a></p><br>
-                <p><img src="./images/call.png" alt="Téléphone"><a href="tél:+0001020304">Téléphone</a>
-                <p><img src="./images/vehicle.png" alt="Permis">Permis B
+       <!--Adresse de contact et logo-->     
+            <address class="adresse">
+                <p><img src="../Germain William Devoir 3 CV HTML CSS/assets/images/email.png" alt="Mail"><a href="mailto:kookaipersan@gmail.com">Mail</a></p>
+                <p><img src="../Germain William Devoir 3 CV HTML CSS/assets/images/adress.png" alt="Address"><a href="https://maps.app.goo.gl/JFsC5PQL3iy6KH3X8">Adresse</a></p><br>
+                <p><img src="../Germain William Devoir 3 CV HTML CSS/assets/images/call.png" alt="Téléphone"><a href="tél:+33624903369">Téléphone</a>
+                <p><img src="../Germain William Devoir 3 CV HTML CSS/assets/images/vehicle.png" alt="Permis">Permis B</p>
             </address>
+          </div>
          </header>
-
-            <div class="left column">
-                <h2>Compétences</h2>
+         <!--section de gauche-->
+        <main class="conteneur2">
+            <div class="left-column">
+                <h3>Compétences</h3>
                 <ul class="etoile"> 
                  <li>HTML <span class="etoile">★</span><span class="etoile">★</span><span class="etoile">★</span><span class="etoile">★</span><span class="etoile-vide">★</span></li>
                  <li>CSS <span class="etoile">★</span><span class="etoile">★</span><span class="etoile">★</span><span class="etoile">★</span><span class="etoile-vide">★</span></li>
@@ -38,67 +36,70 @@
 
                 </ul>
 
-                <H2>Langues</H2>
-                  <p><strong>Français</strong>langue maternelle</p><br>
-                  <p><strong>Anglais</strong>Notions</p>
+                <h3>Langues</h3>
+                  <p><strong>Français</strong>  langue maternelle</p><br>
+                  <p><strong>Anglais</strong>  Notions</p>
 
-                <h2>Qualités</h2>
-                  <p><span class="carre"></span>   Esprit d'équipe</p>
-                  <p><span class="carre"></span>   Relation Clients</p>
-                  <p><span class="carre"></span>   Sens de l'organisation</p>
-                  <p><span class="carre"></span>   Ecoute Active</p>
-                  <p><span class="carre"></span>   Bienveillance</p>
-
-                <h2>Centres d'intérêts</h2>
-                  <p><span class="carre"></span>   Administrateur de l'association "Bambou, Agir pour le Vietnam</p>
-                  <p><span class="carre"></span>   Voyages (Croisières,Asie, Capitales Européenne) </p>
-                  <p><span class="carre"></span>   Pilote de drône (Loisirs)</p>
-                  <p><span class="carre"></span>   Montage de Bornes d'arcades</p>
-                  <p><span class="carre"></span>   Montage vidéo</p>
-                
+                <h3>Qualités</h3>
+                 <ul>
+                  <li><span class="carre"></span>   Esprit d'équipe</li>
+                  <li><span class="carre"></span>   Relation Clients</li>
+                  <li><span class="carre"></span>   Sens de l'organisation</li>
+                  <li><span class="carre"></span>   Ecoute Active</li>
+                  <li><span class="carre"></span>   Bienveillance</li>
+                 </ul>
+                <h3>Centres d'intérêts</h3>
+                 <ul>
+                  <li><span class="carre"></span>   Administrateur de l'association "Bambou, Agir pour le Vietnam</li>
+                  <li><span class="carre"></span>   Voyages (Croisières,Asie, Capitales Européenne)</li> 
+                  <li><span class="carre"></span>   Pilote de drône (Loisirs)</li>
+                  <li><span class="carre"></span>   Montage de Bornes d'arcades</li>
+                  <li><span class="carre"></span>   Montage vidéo</li>
+                 </ul>
             </div>
-             <div class="center">
-                <h2 class="profil">Profil</h2>
-
+            <!--section de droite-->
+            <div class="right-column">
+                <h3 id="profil">Profil</h3>
+            <div class="indente">
                   <p>Autonome et enthousiaste, mes expériences m'ont permis de renforcer 
                     mes acquis, a transmettre des expériences unique à des Clients
                     par le bias d'ateliers, de showrooms et évènements externalisés,
                      et d'appréhender les différents outil et technique de commerce.</p>
                   <p>En quête de nouveaux challlenges, je souhaite rejoindre une organisation à laquelle
                     je pourrais apporter mon dynamisme et mon goût du challenge.</p>
-
-                <h2 class="formation">Formation</h2>
+            </div>
+                <h3 id="formation">Formation</h3>
                   <p>Développeur Web et Web mobile<time datetime="2024-10-15">2024/2025</time></p>
-                  <p><em>Centre Européen de Formations</em></p> 
+                  <p>Centre Européen de Formations</p> 
 
                   <p>Initiation au métier de la Presse<time datetime="2021-09-01">2021</time></p>
-                  <p><em>French Touch Attitude</em></p> 
+                  <p>French Touch Attitude</p> 
                   
                   <p>Brevet Initiation Aéronautique<time datetime="2019-10-01">2019/2020</time></p>
-                  <p><em>Lycée Descartes cournon</em></p> 
+                  <p>Lycée Descartes cournon</p> 
 
                   <p>Bac Pro Bureautique et Commerce<time datetime="1989-09-01">1989/1993</time></p>
-                  <p><em>Lycée Professionnel des Monts du Lyonnais, Chazelles-sur-Lyon</em></p>   
+                  <p>Lycée Professionnel des Monts du Lyonnais, Chazelles-sur-Lyon</p>   
                   
-                  <h2 class="Stage">Stages</h2>
+                  <h3 id="Stage">Stages</h3>
 
                     <p>Pilote de Drônes<time datetime="2022-08-10">2022</time></p>
-                    <p><em>Minute Drône, Clermont-Ferrand</em></p>
+                    <p>Minute Drône, Clermont-Ferrand</p>
 
-                    <h2 class="Experience">Expériences</h2>
+                    <h3 class="Experience">Expériences</h3>
                     <p>Manager Commerce Grande Distribution<time datetime="2021-02-01">2001/2024</time></p>
-                    <p><em>Auchan Aubière</em></p>
+                    <p>Auchan Aubière</p>
                     <p>Vendeur Professionnel<time datetime="2021-02-01">1997/2001</time></p>
-                    <p><em>Auchan Aubière,Auchan Clermont-Ferrand</em></p> 
+                    <p>Auchan Aubière,Auchan Clermont-Ferrand</p> 
                     <p>Vendeur Photo<time datetime="2021-02-01">1994/1997</time></p>
-                    <p><em>Interdiscount St Egrève- Auchan Saint-Etienne</em></p>  
+                    <p>Interdiscount St Egrève- Auchan Saint-Etienne</p>  
              </div>
-            </main> 
-          
-    <footer>
-        <p><img src="./images/in.png" alt="Linkedin"></p>
-        <p><img src="./images/github-sign.png" alt="github"></p>
-        <p><img src="./images/insta.png" alt="Instagram"></p><br>
+        </main> 
+        <!--pied de page CV-->  
+    <footer class="pied">
+        <p><img src="../Germain William Devoir 3 CV HTML CSS/assets/images/in.png" alt="Linkedin"></p>
+        <p><img src="../Germain William Devoir 3 CV HTML CSS/assets/images/github-sign.png" alt="github"></p>
+        <p><img src="../Germain William Devoir 3 CV HTML CSS/assets/images/insta.png" alt="Instagram"></p><br>
         <p>Mis à jour le <time datetime="2024-11-21"></time>12 Novembre 2024 </p>
     </footer> 
   </body>
