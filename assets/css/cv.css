@@ -1,34 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*fonts du Cv*/
+@font-face {
+    font-family: 'Raleway' sans-serif;
+    src: url('/fonts/Raleway-VariableFont_wght.ttf');
+}
+
+
 *{
-    box-sizing: border-box;
-    font-family:  "Raleway" sans-serif;
+    flex: auto;
+    font-family: "Raleway" sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /*Largeur du Cv*/
 
 .body{
-    max-width: 1160px;
+    width: 1160px;
     margin: 0;
-    padding: 0;
-    font-family: "Raleway" sans-serif;
+    padding: 0; 
 }
 
 /*Nom et prénom*/
 .nom h1{
     font-family: "Raleway" sans-serif;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family:"lato" sans-serif;
+    font-size: 24px;
 }
 /*flexbox du header*/
 
 .conteneur{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     background-color: #17abb3;
     width: auto;
-    height: 240px;
+    height: 250px;
     justify-content: space-evenly;
 }
 
@@ -43,27 +58,26 @@
     width: 180px;
     height: 180px;
     border-radius: 50%;
-    margin-left: 50px;
-    margin-top: 30px;
+    margin-left: 80px;
+    margin-top: 20px;
     border: 3px solid white;
     box-shadow: 4px white;
+}
+.adresse a{
+    color: white;
+    text-decoration: none; 
+
 }
 
 /*disposition du nom*/
 .nom{
     text-align: center;
-    margin-top: 20px;
     color: white;
     width: 700px;
     font-size: large; 
     text-decoration: none;  
 }
 
-
-.logo{
-    text-align: center;
-    justify-content: center;
-}
 /*dimension des logos entête*/
 .nom img{
     width: 25px;
@@ -71,11 +85,16 @@
 }
 /*disposition des contacts*/
 .conteneur .adresse{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
-    
+   display: inline-flex;
+   flex-wrap: wrap;
+  width: 240px;
+  height: 120px;
+  justify-content: center; 
+  align-items:normal; 
+  cursor:pointer;
 }
+
+
 /*flex du main*/
 .conteneur2{
    display: flex;
@@ -87,6 +106,9 @@ h3{
     font-size: x-large;
     color: #17abb3;
 }
+.style li{
+   list-style-type: square;   
+}
 
 .right-column h3{
     border-bottom: 1px solid black;
@@ -97,15 +119,17 @@ h3{
     height: 100vh;
     background-color: #d6d0d0;
     padding: 15px;
-    font-size: 18px;
+    font-size: 15px;    
 }
+
+
 
 /*flex de la colonne de droite*/
 .right-column{
     width: 65%;
     height: 100vh;
     padding: 15px;
-    font-size: 18px;
+    font-size: 15px;
 }
 /*Indentation du texte*/
 .indente{
@@ -113,9 +137,10 @@ h3{
 }
 /*Mise en page du footer*/
 .pied img{
-    width: 20px;
-    height: 20px; 
-    align-content: center;  
+    width: 25px;
+    height: 25px; 
+    align-content: center; 
+    color: white; 
 }
 .pied img :hover{
     opacity: 0.8;
