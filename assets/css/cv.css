@@ -52,7 +52,7 @@ h2{
 }
 
 .photo{
-    width: 400px; 
+    width: 350px; 
     height: 240px;
     
 }
@@ -97,10 +97,24 @@ h2{
   align-items:normal; 
   cursor:pointer;
 }
-.etoile{
-    text-decoration: none;
+.etoiles{
+    display:inline;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 5px;
+    text-decoration: none;   
 }
-
+.stars{
+    color: #17abb3;
+    font-size: 20px;
+    
+   
+}
+.skill-name{
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: italic;   
+}
 
 /*flex du main*/
 .conteneur2{
@@ -111,6 +125,7 @@ h2{
 h3{
     font-family: "Lato", sans-serif;
     font-weight: 500;
+    margin-top: 0;
     font-style: italic;
     font-size: x-large;
     color: #17abb3;
