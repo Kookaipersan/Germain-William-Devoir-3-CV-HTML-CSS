@@ -24,7 +24,9 @@
 
 /*Nom et prénom*/
 .nom h1{
-    font-family: "Raleway" sans-serif;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
     font-size: 40px;
     margin-top: 10px;
     margin-bottom: 0px;
@@ -32,7 +34,9 @@
 h2{
     margin-top: 5px;
     margin-bottom: 5px;
-    font-family:"lato" sans-serif;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
     font-size: 24px;
 }
 /*flexbox du header*/
@@ -93,6 +97,9 @@ h2{
   align-items:normal; 
   cursor:pointer;
 }
+.etoile{
+    text-decoration: none;
+}
 
 
 /*flex du main*/
@@ -102,12 +109,15 @@ h2{
 }
 /*Couleur et fonts des titres*/
 h3{
-    font-family: "lato" sans-serif;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: italic;
     font-size: x-large;
     color: #17abb3;
 }
 .style li{
-   list-style-type: square;   
+   list-style-type: square; 
+    
 }
 
 .right-column h3{
@@ -157,4 +167,13 @@ h3{
     display: inline;
     align-self: center;
     justify-content:space-between;
+}
+
+
+strong{
+    font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  
+
 }
